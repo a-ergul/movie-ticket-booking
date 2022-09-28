@@ -11,8 +11,8 @@ body {
 
 .seat {
     background-color: #56566e;
-    height: 15px;
-    width: 15px;
+    height: 25px;
+    width: 25px;
     margin: 3px;
     border-radius: 4px;
 }
@@ -44,7 +44,7 @@ body {
 
 .screen {
     background-color: #fff;
-    height: 40px;
+    height: 60px;
     width: 100%;
     margin: 50px 0;
     box-shadow: 0 3px 8px rgba(255, 255, 255, 0.7);
@@ -52,6 +52,13 @@ body {
 
 .movie-list {
     margin: 20px 0;
+}
+
+.movie-list select{
+    border-radius: 5px;
+    border: 1px solid #E8EAED;
+    cursor: pointer;
+    padding: 7px 10px;
 }
 
 .info {
